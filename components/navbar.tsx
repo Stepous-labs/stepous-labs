@@ -66,12 +66,14 @@ export function Navbar() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.6 }}
           >
-            <Button
+            <Link href="https://calendly.com/harshsharmaa990/30min" target="_blank" rel="noopener noreferrer">
+              <Button
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-md"
               size="sm"
-            >
+              >
               Book a Call
-            </Button>
+              </Button>
+            </Link>
           </motion.div>
 
         {/* Mobile Menu Button */}
