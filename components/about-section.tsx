@@ -142,7 +142,7 @@ export function AboutSection() {
             {/* Timeline items */}
             {[
               {
-                year: "2025",
+                year: "2024",
                 title: "Founded",
                 description: "Stepous Labs was founded with a vision to create innovative digital solutions.",
               },
